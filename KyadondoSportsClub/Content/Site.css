@@ -1,0 +1,110 @@
+﻿html, body{ height:100%;
+            width:100%;
+}
+.navbar{
+    background-color:bisque;
+    padding:1% 0;
+    font-size:1.2em;
+    }
+
+.navbar-brand{
+    min-height:55px;
+    padding:0 15px 5px;
+}
+.navbar-defualt .navbar-nav li a {
+    color:#d5d5d5;
+}
+.navbar-defualt .navbar-nav li a:hover, .navbar-defualt .navbar-nav li a:active {
+    color:#fff;
+}  
+body {
+    padding-top:0px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    /**padding-left: 10px;
+    padding-right: 10px;*/
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*------------------------Home Page=----------------------------*/
+.slide-right-caption {
+	-webkit-animation: slide-right 2s ease-in alternate forwards;
+	        animation: slide-right 2s ease-in alternate forwards;
+}
+
+@-webkit-keyframes slide-right-caption {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+@keyframes slide-right-caption {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+/*Couracel caption animation*/
+
+
+/*-------------------------Homep Page ---------------------*/
+
+ParallaxWindow {
+    position: relative;
+    height: 500px;
+   background-image: url(/Media/HomePage/C/cuHea.jpg);
+background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+
+/*-----------------------Teams--------------------------*/
+/*__Team Index__*/
+
+.TeamCategory{
+
+}
+
+
+.TeamParallax{
+    height:400px;
+}
+
+/*__EndTeam Index__*/
+/*
+    ------------end Of Teams cSS--------------------*/
+/*--------------*Team NAvigation small*-------------*/
+teamsmallnav{
+    background-color:chocolate;
+}
+/*--------------*End Team NAvigation small*-------------*/
+
+/*--------------Player Sqaud and Player Profile*---------------*/
+playerNamePP{
+font-size:large;
+     }
+
+/*---------------Team Squard-----------------------*/
+.heathensTeamSquad{
+    background-color:#27AE60;
+    color:white;
+}

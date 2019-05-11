@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Kyadondo Sports Club</title>
+ <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+      <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Content/Site.css"></script>
+</head>
+<body>
+    
+
+    <!--
+        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </div>
+    </div>
+    -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                 </button>
+                <a class="navbar-brand" href="#"><img src="" alt="Kyadondo Navigation Logo" /></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="active" href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Home</a></li>
+                   
+                </ul>
+            </div>
+         </div>
+
+    </nav>
+
+    <div class="body-content">
+        @RenderBody();
+      
+
+        <hr />
+       
+        <div class="row">
+          
+                <div class="row col-md-12" style="background-color:#659DBD; margin-left:15px; margin-right:15px;">
+                   <div class="col-xs-12 col-md-7">
+                  <div class="row">
+                      <div class="col-md-4 col-xs-4">
+                          <h6 style="color:#f0c504;">ABOUT KYADONDO</h6><hr>
+                          <ul class="list-unstyled footer-underline">
+                              <li><a href="/About/OurStory" style="color:#8D8741; font: bold 10px/14px Helvetica, Sans-Serif; ">OUR STORY AND HISTORY</a></li>
+                              <li><a href="/About/Leadership" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">CLUB LEADERSHIP</a></li>
+                              <li><a href="/About/ContactUs" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">LOCATION AND CONTACTS</a></li>
+
+                          </ul>
+
+                      </div>
+                      <div class="col-md-4 col-xs-4">
+                          <h6 style="color:#f0c504;">RUGBY</h6><hr>
+                          <ul class="list-unstyled footer-underline">
+                              <li style="color:#f0c504; font: bold 10px/14px Helvetica, Sans-Serif; "><u> SENIORS</u></li>
+
+                              <li><a href="" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">HIMA CEMENT HEATHENS</a></li>
+                              <li><a href="" style="color:#E85A4F; font: bold 10px/14px Helvetica, Sans-Serif; ">TOYOTA BUFFALOES</a></li>
+                              <li><a href="" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">KYADONDO THUNDERBIRDS</a></li>
+                              <li><a href="" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">TOUCH RUGBY</a></li>
+
+                              <li style="color:#f0c504; font: bold 10px/14px Helvetica, Sans-Serif; "><u> JUNIORS </u></li>
+
+                              <li><a href="" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">ENGSOL STALLIONS</a></li>
+                              <li><a href="" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">KYADONDO TIGERS</a></li>
+                              <li><a href="" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">KYADONDO EAGLES</a></li>
+
+                              <li style="color:#f0c504; font: bold 10px/14px Helvetica, Sans-Serif; "><u>DEVELOPEMENT</u></li>
+
+                              <li><a href="" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; "> TAG-RUGBY</a></li>
+                              <li><a href="" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">U11 - U19</a></li>
+
+                          </ul>
+
+                      </div>
+                      <div class="col-md-4 col-xs-4">
+                          <h6 style="color:#f0c504;">USEFULL LINKS</h6><hr>
+                          <ul class="list-unstyled">
+                              <li>
+                                  <a href="/gallery/" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">GALLERY</a>
+                              </li>
+                              <li>
+                                  <a href="/MatchCenter/Fixtures" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">FIXTURES</a>
+                              </li>
+                              <li>
+                                  <a href="/MatchCenter/Results" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">RESULTS</a>
+                              </li>
+                              <li class="textfooter">
+                                  <a href="/Events/" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">UPCOMING EVENTS</a>
+                              </li>
+                              <li class="textfooter">
+                                  <a href="/news/" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">NEWS</a>
+                              </li>
+                              <!-- <li >
+                <a href="" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">BLOG</a>
+            </li>-->
+                              <li>
+                                  <a href="" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">SHOP OLINE</a>
+                              </li>
+                          </ul>
+
+                      </div>
+                  </div>
+                            
+                   </div>
+                    <div class="col-xs-12 col-md-5">
+                        
+                        <div class="row col-xs-12">
+                            <h6 style="color:#f0c504;">CONTACT US</h6><hr>
+                            <address class="foottext">
+                                <strong>KYADONDO SPORTS CLUB</strong><br>
+                                Plot 9 - 15<br>
+                                Coronation Avenue, Kampala<br>
+                                <abbr title="Phone">P:</abbr> (077) 271-8219
+                            </address>
+                            <address>
+                              
+                                <a style="color:#f0c504;" href="mailto:#">info@kyadondo.co.ug</a>
+                       </address>
+                            <hr />
+                            <ul class="list-unstyled list-inline footer-underline">
+                                <li><a href="https://www.facebook.com/kyadondorugby/" target="_blank" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">FACEBOOK</a></li>
+                                <li><a href="https://twitter.com/kyadondoclub" target="_blank" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">TWITTER</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCVh2tAsiEzwUcUGo7pYCwOg" target="_blank" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">YOUTUBE</a></li>
+                                <li><a href="https://plus.google.com/113344179239173314062" target="_blank" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">GOOGLE +</a></li>
+                                <li><a href="https://www.instagram.com" target="_blank" style="color:white; font: bold 10px/14px Helvetica, Sans-Serif; ">InStagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                  
+
+
+                </div>
+            
+        </div>
+<!--New Footer-->
+
+        <footer style="text-align:center;">
+            <p>&copy; @DateTime.Now.Year - KYADONDO SPORTS CLUB</p>
+            <p>Powered by: <strong><a href="#">WHITE-MARE TECHNOLOGY</a></strong></p>
+        </footer>
+        <!--End New Footer-->
+    </div>
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
